@@ -1,0 +1,50 @@
+Django - D is silent and is called jango 
+Django is a python backend framework 
+Django connect frotend and backend 
+
+
+#Create Your First Django Project
+
+1. django-admin startproject myproject
+
+2. cd <add>
+
+3. myproject/
+│
+├── manage.py
+│
+└── myproject/
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    ├── asgi.py
+    └── wsgi.py
+
+4.Understand manage.py
+
+manage.py is the command-line utility for your Django project.
+
+->python manage.py runserver
+->python manage.py startapp appname
+->python manage.py makemigrations
+-.python manage.py migrate
+->python manage.py createsuperuser
+
+#Project
+
+The project is the complete website/application configuration.
+ex- E-commerce project
+
+#App
+
+An app performs a particular functionality.
+
+For example:
+
+E-commerce
+│
+├── users
+├── products
+├── orders
+├── payments
+└── reviews
