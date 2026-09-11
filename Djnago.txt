@@ -48,3 +48,50 @@ E-commerce
 ├── orders
 ├── payments
 └── reviews
+
+-> Template Variables
+
+In Django, Template Variables are used to display data from the View inside an HTML template.
+
+Basic Syntax
+{{ variable_name }}
+Template Variable — Quick Revision
+Template Variable
+        ↓
+Used to display data
+        ↓
+{{ variable }}
+        ↓
+Data comes from View
+        ↓
+Data is passed using Context
+
+-> Template Conditions -  Django templates allow us to execute conditions using:
+
+{% if condition %}
+{% else %}
+{% endif %}
+Django templates support:
+
+==    Equal to
+!=    Not equal to
+>     Greater than
+<     Less than
+>=    Greater than or equal to
+<=    Less than or equal to
+
+
+->Template Loops
+
+A loop is used when we want to display multiple values.
+
+Django syntax:
+
+{% for item in items %}
+
+    {{ item }}
+
+{% endfor %}
+
+
+->Template Inheritance 
